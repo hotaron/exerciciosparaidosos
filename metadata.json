@@ -1,0 +1,8 @@
+{
+  "name": "+1000 Atividades para Idosos",
+  "description": "+1000 Atividades e Exercícios Adaptados para Idosos, Kit Completo",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
