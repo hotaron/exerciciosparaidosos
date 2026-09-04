@@ -11,11 +11,6 @@ const PORT = 3000;
 
 app.use(express.json());
 
-// Handle analytics endpoint gracefully to avoid 404 in console
-app.all('/~api/*', (req, res) => {
-  res.status(200).json({ status: 'ok' });
-});
-
 // Assets router fallback (serving requested assets from assets, js, images, css)
 app.use('/assets', (req, res, next) => {
   const reqPath = decodeURIComponent(req.path);
